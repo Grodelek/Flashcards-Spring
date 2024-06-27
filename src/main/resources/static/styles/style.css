@@ -1,0 +1,14 @@
+body{
+    background-color: #574469;
+}
+.home-page{
+    background-color: rgba(47, 34, 64, 0.7);
+    width: 560px;
+    height: 700px;
+    margin: 0 auto;
+}
+.login-input{
+    margin: 10px auto;
+    border-color: black;
+    border-radius: 5px;
+}

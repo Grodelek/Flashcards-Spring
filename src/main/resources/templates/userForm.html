@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="home-page">
+    <h2 style="text-align: center">Sign in</h2>
+    <form action="#" th:action="@{/userForm}" th:object="${user}" method="post">
+        <label>Username:</label>
+        <label>
+            <input type="text" th:field="*{login}"/>
+        </label><br/>
+
+        <label>Password:</label>
+        <label>
+            <input type="password" th:field="*{password}"/>
+        </label><br/>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</body>
+</html>
