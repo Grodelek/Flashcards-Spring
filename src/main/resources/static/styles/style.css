@@ -1,14 +1,36 @@
 body{
     background-color: #574469;
 }
+h2{
+    color: papayawhip;
+}
 .home-page{
     background-color: rgba(47, 34, 64, 0.7);
-    width: 560px;
-    height: 700px;
+    width: 660px;
+    height: 800px;
     margin: 0 auto;
+    border-radius: 10px;
 }
 .login-input{
     margin: 10px auto;
+    width: 175px;
+    height: 25px;
     border-color: black;
+    border-radius: 8px;
+}
+.form-wrapper{
+    color: papayawhip;
+    text-align: center;
+}
+.button-form{
+    margin: 20px;
+    height: 35px;
+    width: 80px;
+    color: white;
+    background-color: #272424;
     border-radius: 5px;
+
+}
+.button-form:hover{
+    background-color: black;
 }
