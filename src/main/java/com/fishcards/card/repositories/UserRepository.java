@@ -1,7 +1,7 @@
-package com.fishcards.card;
+package com.fishcards.card.repositories;
 
+import com.fishcards.card.models.User;
 import org.springframework.data.jpa.repository.JpaRepository;
-import org.springframework.stereotype.Repository;
 
 public interface UserRepository extends JpaRepository<User, Long> {
 }

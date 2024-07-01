@@ -23,7 +23,8 @@
             <input class="login-input" type="password" th:field="*{password}" required/>
             <span class="validationError"
                   th:if="${#fields.hasErrors('password')}"
-                  th:errors="*{password}">Password Error</span>
+                  th:errors="*{password}">Password Error
+            </span>
         </label>
             <br>
             <button class="button-form" type="submit">Submit</button>

@@ -1,4 +1,4 @@
-package com.fishcards.card;
+package com.fishcards.card.models;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.NotNull;

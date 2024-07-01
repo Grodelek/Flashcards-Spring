@@ -1,4 +1,6 @@
-package com.fishcards.card;
+package com.fishcards.card.services;
+
+import com.fishcards.card.models.User;
 
 import java.util.List;
 
