@@ -1,9 +1,9 @@
 package com.fishcards.card;
 
 import jakarta.persistence.*;
-import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
 import lombok.Data;
-import org.springframework.stereotype.Controller;
 
 @Data
 @Entity
@@ -12,8 +12,10 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @NotBlank(message = "Login is Required")
+    @NotNull
+    @Size(min = 7 , message = "Minimum 7 letters")
     private String login;
-    @NotBlank(message = "Password is Required")
+    @NotNull
+    @Size(min = 7,  message = "Minimum 7 letters")
     private String password;
 }

@@ -34,3 +34,6 @@ h2{
 .button-form:hover{
     background-color: black;
 }
+.validationError{
+    color: #ff1818;
+}

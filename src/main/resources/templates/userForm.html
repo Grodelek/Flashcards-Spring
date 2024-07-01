@@ -13,11 +13,17 @@
         <label style="font-size: 25px">Username:</label>
         <label>
             <input class="login-input" type="text" th:field="*{login}" required/>
+            <span class="validationError"
+                  th:if="${#fields.hasErrors('login')}"
+                  th:errors="*{login}">Login Error</span>
         </label>
         <br>
         <label style="font-size: 25px">Password:</label>
         <label>
             <input class="login-input" type="password" th:field="*{password}" required/>
+            <span class="validationError"
+                  th:if="${#fields.hasErrors('password')}"
+                  th:errors="*{password}">Password Error</span>
         </label>
             <br>
             <button class="button-form" type="submit">Submit</button>
