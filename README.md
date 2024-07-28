@@ -1,1 +1,1 @@
-<h1>FishCards Project made in Spring</h1>
+<h1>Flashcards Project made in Spring</h1>
